@@ -10,5 +10,8 @@
 `.\gradlew bootRun`
 Check message: http://localhost:8080/
 
+## Restart
+Rebuild the project
+
 ## Run unit test
 `.\gradlew test`
