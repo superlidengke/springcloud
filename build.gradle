@@ -21,6 +21,10 @@ dependencies {
 	testImplementation('org.springframework.boot:spring-boot-starter-test')
 	// end::tests[]
 	developmentOnly("org.springframework.boot:spring-boot-devtools")
+	// graphql
+	implementation group: 'com.graphql-java-kickstart', name: 'graphql-spring-boot-starter', version: '12.0.0'
+	testImplementation 'com.graphql-java-kickstart:graphql-spring-boot-starter-test:12.0.0'
+	implementation 'com.graphql-java-kickstart:graphql-java-tools:12.1.0'
 }
 
 test {

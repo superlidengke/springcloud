@@ -15,3 +15,17 @@ Rebuild the project
 
 ## Run unit test
 `.\gradlew test`
+
+## Graphql
+http://localhost:8080/graphiql
+```
+query{
+    book {
+        id,
+        name,
+        author {
+            id
+        }
+    }
+}
+```
