@@ -21,6 +21,10 @@ dependencies {
 	testImplementation('org.springframework.boot:spring-boot-starter-test')
 	// end::tests[]
 	developmentOnly("org.springframework.boot:spring-boot-devtools")
+
+	compileOnly 'org.projectlombok:lombok:1.18.24'
+	annotationProcessor 'org.projectlombok:lombok:1.18.24' // error without this line in Gradle
+
 }
 
 test {
